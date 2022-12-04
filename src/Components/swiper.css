@@ -1,0 +1,22 @@
+.swiper-container{
+    top:0px;
+    padding:0px;
+    margin:0px;
+    width:100%;
+}
+
+.swiper-slide{
+    top:0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:500px;
+}
+#root > div.Accueil > div > div.swiper-wrapper > div.swiper-slide.swiper-slide-active{
+    color:white !important;
+}
+
+.image{
+    width:100%;
+    height:fit-content
+}

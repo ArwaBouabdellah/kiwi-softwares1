@@ -1,0 +1,121 @@
+*{
+    font-family:'Helvetica Neue', sans-serif; 
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    transition: all 0.5s;
+}
+.Accueil{
+    padding:300px;
+    margin:0px;
+    position:relative;
+    background-image: url(../image/gif/Kiwi\ Softwares\ \(1\).png);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index:10;
+}
+
+.Accueil .texte{
+    color:white;
+    font-size:3em;
+    margin-top:10px;
+}
+.btn{
+    position:relative;
+    text-decoration:none;
+    background: var(--green);
+    margin-top:10vh;
+    padding:30px;
+    border-radius: 20px;
+    border:0px;
+}
+.btn a{ 
+    text-transform: uppercase;
+    color: white;
+    font-size:1.3em;
+    text-decoration:none;
+}
+.btn:hover{
+    background:rgb(18, 61, 3);
+}
+.aporpos{
+    width: 100%;
+    background: rgb(173, 221, 172);
+}
+h1{
+    margin-bottom:20px;
+    text-transform: uppercase;
+    text-align:center;
+    position:relative;
+    color: black;
+    font-size:3em;
+    font-weight: bold;
+}
+h1 span{
+    color: var(--green);
+    font-size:2em;
+}
+.apropos .contenu{
+    position:relative;
+    display:flex;
+    margin-bottom:50px;
+}
+.row{
+    position:relative;
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.row .description{ 
+    position:relative;
+    width:60vw;
+    font-size:1.5em;
+}
+.row .description p:hover{
+    letter-spacing:1px;
+}
+.row .description .icon:hover{
+    color: var(--green);
+    transition:0.1s;
+}
+.row .photo{
+    width:100%;
+    height:auto;
+}
+.row img{ 
+    position:relative;
+    width:80%;
+    height:40vh;
+    border-radius:10px;
+}
+.quote{
+    width:100%;
+    height:auto;
+    background:url(../image/gif/Sans\ titre\ \(3\).png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.quote h4{
+    padding-top:50px;
+    text-align:center;
+    font-size:3em;
+    font-weight:bold;
+    font-variant: small-caps;
+    font-family:'montserrat';
+}
+.quote h6{
+    font-family:'montserrat';
+    text-align:center;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+.quote p{
+    font-family:'montserrat';
+    text-align:center;
+    font-size: 1.2em;
+    font-variant: small-caps;
+}
